@@ -4,8 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #0d0221; /* Dark background for contrast */
-    color: white; /* Ensures text is readable */
+    background-color: #0d0221; 
+    color: white;
     text-align: center;
 }
 
@@ -54,10 +54,10 @@ h1 {
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
-    background: rgba(255, 0, 127, 0.2); /* Subtle pink background */
+    background: rgba(255, 0, 127, 0.2); 
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(255, 0, 127, 0.5); /* Neon glow */
+    box-shadow: 0px 0px 10px rgba(255, 0, 127, 0.5); 
 }
 
 #about h2 {
@@ -78,7 +78,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* Common Button Style */
 button {
     background: #ff007f;
     color: white;
@@ -92,7 +91,6 @@ button {
     box-shadow: 0px 0px 10px rgba(255, 0, 127, 0.7);
 }
 
-/* Hover Effect */
 button:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 15px rgba(255, 0, 127, 1);
