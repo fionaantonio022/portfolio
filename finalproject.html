@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <link rel="stylesheet" href="finalproject.css">
+    <script src="vanta.js"></script>
+
+
     <title>My Homepage</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            background: url('background-gif.gif') no-repeat center center fixed;
-            background-size: cover;
-        }
-        .profile img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        main {
-            max-width: 600px;
-        }
-    </style>
+    
 </head>
 <body>
+    <div id="vanta-bg"></div> 
+    
     <main>
         <section class="profile">
             <img src="1000020645.jpg" alt="Self Portrait">
         </section>
-        <section class="nama">
+        <section class="name">
             <h1>Princess Fiona Antonio</h1>
+        </section>
+        
+        <div class="buttons">
+            <button id="tech-stack-btn">View Tech Stack</button>
+            <button id="contact-btn">Contact Me</button>
+            <button id="certificate-btn">View Certificates</button>
+        </div>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Princess Fiona Antonio, a passionate technology enthusiast currently taking a 
+                Bachelor of Science in Technology at St. Dominic College of Asia. I enjoy exploring new 
+                innovations, solving problems, and learning how technology shapes the future. In my free 
+                time, I like practice my coding, designing, and experimenting with new software tools.
+            </p>
+            <p>
+                My goal is to become a skilled software developer, creating applications that make life easier 
+                and more efficient. I aspire to work on innovative projects that enhance user experience and 
+                contribute to technological advancements. I am eager to learn, grow, and collaborate with 
+                like-minded professionals in the industry.
+            </p>
         </section>
     </main>
 </body>
