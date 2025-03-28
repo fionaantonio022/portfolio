@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0d0221; 
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+#vanta-bg {
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;          
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px; 
+    background: rgba(13, 2, 33, 0.7); 
+    margin-top: 50px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    max-width: 600px; 
+}
+
+.profile p {
+    text-align: center;
+    max-width: 90%; 
+    line-height: 1.6; 
+    text-align: justify;
+}
+
+.profile h1{
+    font-family: 'Verdana';
+
+}
+p {
+    margin: 10px 0;
+    color: #fff;
+    font-family: 'Verdana';
+}
+
+
+.navibar {
+    position : fixed;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none; 
+    padding: 10px 15px;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+}
+
+.navibar a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-family: 'Verdana';
+}
+
+.navibar a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px rgba(255, 0, 127, 1);
+}
