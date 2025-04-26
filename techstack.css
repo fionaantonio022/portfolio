@@ -7,31 +7,45 @@
     z-index: -1;          
 }
 
-
 .navibar {
-    position : fixed;
+    position: fixed;
     top: 10px;
     left: 10px;
+    right: 10px;
     background: rgba(0, 0, 0, 0.2);
-    color: white;
-    border: none; 
-    padding: 10px 15px;
-    gap: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
     display: flex;
-
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f0f0f0;
+    gap: 30px;
+    z-index: 1000;
 }
 
+
+.navibar a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.navibar img {
+    width: 20px;
+    height: 20px;
+}
 .navibar a {
     color: white;
     text-decoration: none;
     font-size: 23px;
-    font-family: 'Verdana';
     padding: 8px 12px;
     border-radius: 5px;
+    font-family: 'Verdana';
 }
 
 .navibar a:hover {
