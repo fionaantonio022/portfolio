@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <link rel="stylesheet" href="about-me.css"/>
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <title>Princess Fiona Antonio | About Me</title>
+</head>
+<body>
+  <div id="vanta-bg"></div>
+  <nav class="navibar">
+    <div class="name">Fio</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about-me.html"class="active">About Me</a>
+      <a href="tech-stack.html">Tech Stack</a>
+      <a href="certificate.html">Certificates</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="main-container">
+      <section class="sub-container">
+        <h1>Who Am I?</h1>
+        <p>
+          My name is Princess Fiona Antonio, and I am a 20-year-old student 
+          currently pursuing a Bachelor of Science in Technology at St. Dominic College of Asia. 
+          I am passionate about learning new technologies and solving real-world problems.
+          My objective is to improve my technical skills and participate in advanced technology projects.
+        </p>
+      </section>
+
+      <section class="sub-container">
+        <h1>Professional Aspiration</h1>
+        <p>
+          I want to become a skilled software developer who makes effective and easy-to-use applications.
+          My goal is to work on creative projects that improve user experience and develop technology.
+          Along with working with like-minded industry professionals, I am excited to learn and develop.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    function toggleMenu() {
+        const navLinks = document.getElementById('navLinks');
+        navLinks.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
