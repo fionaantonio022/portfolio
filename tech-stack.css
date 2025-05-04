@@ -68,7 +68,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS';
+    font-family: 'Domine';
     background-color: #14082d;
     color: white;
 }
@@ -137,7 +137,7 @@ body {
 .tech-item h3 {
     margin-top: 15px;
     color: white;
-    font-family: 'Trebuchet MS';
+    font-family: 'Domine';
     font-size: 20px;
     font-weight: bold;
 }
