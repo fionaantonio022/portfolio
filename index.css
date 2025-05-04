@@ -36,14 +36,16 @@ main {
 h1 {
     padding: 10px;
     color: #fff;
-    font-family: 'Verdana';
+    font-family: 'Domine';
     font-size: 24px; 
+    margin-bottom: 5px;
 }
 
 p {
     color: #fff;
-    font-family: 'Verdana';
+    font-family: 'Domine';
     font-size: 16px; 
+    margin-top: 0;
 }
 
 .profile img {
@@ -57,29 +59,33 @@ p {
 
 .buttons {
     display: flex;
-    flex-direction: row;
-    gap: 15px;
+    justify-content: center;
+    width: 100%;
     margin-top: 20px;
-    justify-content: center; 
+    gap: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
 }
 
 button {
-    background: #ff007f;
+    background: rgba(24, 9, 55, 0.7);
     color: white;
     border: none;
-    padding: 12px 20px;
+    padding: 12px 15px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
-    font-family: 'Verdana';
+    font-family: 'Domine';
     box-shadow: 0px 0px 10px rgba(255, 0, 127, 0.7);
+    white-space: nowrap;
 }
 
 button:hover {
     box-shadow: 0px 0px 15px rgba(255, 0, 127, 1);
 }
-
 
 @media screen and (max-width: 768px) {
     main {
@@ -102,11 +108,13 @@ button:hover {
 
     .buttons {
         flex-direction: column; 
-        gap: 10px; 
+        gap: 10px;
     }
 
     button {
         padding: 10px 18px; 
+        width: 100%;
+        font-size: 16px;
     }
 }
 
