@@ -1,57 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-    <link rel="stylesheet" href="certificate.css">
-    <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-    <title>Princess Fiona Antonio | Certificates</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Princess Fiona Antonio | Certificates</title>
+
+  <link rel="stylesheet" href="certificate.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="vanta-bg"></div>
+  <div id="vanta-bg"></div>
 
-    <nav class="navibar">
-        <div class="name">Fio</div>
-        <button class="menu-toggle" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="nav-links" id="navLinks">
-            <a href="index.html">Home</a>
-            <a href="about-me.html">About Me</a>
-            <a href="tech-stack.html">Tech Stack</a>
-            <a href="certificate.html" class="active">Certificates</a>
-            <a href="contact.html">Contact Me</a>
-        </div>
-    </nav>
-
-    <div class="box">
-        <h1>Certificates</h1>
-
-        <div class="certificate-container">
-            <div class="certificate-box">
-                <h3>Microsoft Office Specialist: PowerPoint (2019)</h3>
-                <img src="images/ppt.png" alt="Microsoft Office Specialist Certificate">
-            </div>
-
-            <div class="certificate-box">
-                <h3>Oracle Java Certificate</h3>
-                <img src="images/oop.png" alt="Oracle Java Certificate">
-            </div>
-        </div>
+  <nav class="navibar">
+    <div class="name">Fio</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about-me.html">About Me</a>
+      <a href="tech-stack.html">Tech Stack</a>
+      <a href="certificate.html" class="active">Certificates</a>
+      <a href="contact.html">Contact Me</a>
     </div>
+  </nav>
 
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('navLinks');
-            navLinks.classList.toggle('active');
-        }
-    </script>
+  <div class="box">
+    <h1>Certificates</h1>
+
+    <div class="certificate-container">
+      <div class="certificate-box">
+        <h3>Microsoft Office Specialist: PowerPoint (2019)</h3>
+        <img src="images/ppt.png" alt="Microsoft Office Specialist Certificate">
+      </div>
+
+      <div class="certificate-box">
+        <h3>Oracle Java Certificate</h3>
+        <img src="images/oop.png" alt="Oracle Java Certificate">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

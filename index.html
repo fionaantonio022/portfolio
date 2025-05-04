@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <script src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
-    <title>Princess Fiona Antonio | Home</title>
-    
-</head>
-<body>
-    <div id="vanta-bg"></div> 
-    
-    <main>
-        <section class="profile">
-            <img src="images/1000020645.jpg" alt="Self Portrait">
-        </section>
-        <section class="name">
-            <h1>Princess Fiona E. Antonio</h1>
-            <p>Aspiring Software Developer</p>
-        </section>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Princess Fiona Antonio | Home</title>
 
-        <div class="buttons">
-            <a href="about-me.html">
-            <button id="about-btn">About Me</button>
-            </a>
-            <a href = "tech-stack.html">
-            <button id="tech-stack-btn">Tech Stack</button>
-            </a>
-            <a href ="certificate.html">
-            <button id="certificate-btn">Certificates</button>
-            </a>
-            <a href = "contact.html">
-            <button id="contact-btn">Contact Me</button>
-            </a>    
-        </div>
-    </main>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="vanta-bg"></div> 
+
+  <main class="container text-center py-5">
+    <section class="profile mb-4">
+      <img src="images/1000020645.jpg" alt="Self Portrait" class="img-fluid rounded-circle" />
+    </section>
+
+    <section class="name mb-4">
+      <h1>Princess Fiona E. Antonio</h1>
+      <p>Aspiring Software Developer</p>
+    </section>
+
+    <div class="buttons d-flex flex-wrap justify-content-center gap-3">
+      <a href="about-me.html">
+        <button id="about-btn" class="btn custom-button">About Me</button>
+      </a>
+      <a href="tech-stack.html">
+        <button id="tech-stack-btn" class="btn custom-button">Tech Stack</button>
+      </a>
+      <a href="certificate.html">
+        <button id="certificate-btn" class="btn custom-button">Certificates</button>
+      </a>
+      <a href="contact.html">
+        <button id="contact-btn" class="btn custom-button">Contact Me</button>
+      </a>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

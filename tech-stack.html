@@ -1,64 +1,69 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-        <link rel="stylesheet" href="tech-stack.css">
-        <script src="script.js"></script>
-        <title>Princess Fiona Antonio | Tech-Stack</title>
-    </head>
-    <body>
-        <div id="vanta-bg"></div>
-        
-        <nav class="navibar">
-            <div class="name">Fio</div>
-            <button class="menu-toggle" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="nav-links" id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about-me.html">About Me</a>
-                <a href="tech-stack.html" class="active">Tech Stack</a>
-                <a href="certificate.html">Certificates</a>
-                <a href="contact.html">Contact Me</a>
-            </div>
-        </nav>
-        
-        <div class="box">
-            <h1>Technology Stack</h1>
-            <div class="items">
-                <div class="tech-item">
-                    <img src="images/html.png" alt="HTML">
-                    <h3>HTML</h3>
-                </div>
-                
-                <div class="tech-item">
-                    <img src="images/css.png" alt="CSS">
-                    <h3>CSS</h3>
-                </div>
-                
-                <div class="tech-item">
-                    <img src="images/java.png" alt="JavaScript">
-                    <h3>Java</h3>
-                </div>
-                
-                <div class="tech-item">
-                    <img src="images/android.png" alt="Android Studio">
-                    <h3>Android Studio</h3>
-                </div>
-            </div>
-        </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script>
-            function toggleMenu() {
-                const navLinks = document.getElementById('navLinks');
-                navLinks.classList.toggle('active');
-            }
-        </script>
-        
-    </body>
-    </html>
+  <link rel="stylesheet" href="tech-stack.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Princess Fiona Antonio | Tech-Stack</title>
+</head>
+<body>
+  <div id="vanta-bg"></div>
+
+  <nav class="navibar">
+    <div class="name">Fio</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about-me.html">About Me</a>
+      <a href="tech-stack.html" class="active">Tech Stack</a>
+      <a href="certificate.html">Certificates</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </nav>
+
+  <div class="box">
+    <h1>Technology Stack</h1>
+    <div class="items">
+      <div class="tech-item">
+        <img src="images/html.png" alt="HTML">
+        <h3>HTML</h3>
+      </div>
+
+      <div class="tech-item">
+        <img src="images/css.png" alt="CSS">
+        <h3>CSS</h3>
+      </div>
+
+      <div class="tech-item">
+        <img src="images/java.png" alt="JavaScript">
+        <h3>Java</h3>
+      </div>
+
+      <div class="tech-item">
+        <img src="images/android.png" alt="Android Studio">
+        <h3>Android Studio</h3>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
