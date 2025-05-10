@@ -2,29 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-  <link rel="stylesheet" href="about-me.css"/>
+  <link rel="stylesheet" href="about-me.css" />
   <script src="script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />
   <title>Princess Fiona Antonio | About Me</title>
 </head>
 <body>
   <div id="vanta-bg"></div>
+
   <nav class="navibar">
     <div class="name">Fio</div>
     <button class="menu-toggle" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
 
     <div class="nav-links" id="navLinks">
       <a href="index.html">Home</a>
-      <a href="about-me.html"class="active">About Me</a>
+      <a href="about-me.html" class="active">About Me</a>
       <a href="tech-stack.html">Tech Stack</a>
       <a href="certificate.html">Certificates</a>
       <a href="contact.html">Contact Me</a>
@@ -56,10 +57,9 @@
 
   <script>
     function toggleMenu() {
-        const navLinks = document.getElementById('navLinks');
-        navLinks.classList.toggle('active');
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
     }
-</script>
-
+  </script>
 </body>
 </html>

@@ -32,7 +32,7 @@ body {
   backdrop-filter: blur(10px);
   font-weight: bold;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .name {
@@ -48,7 +48,7 @@ body {
   display: flex;
   gap: 25px;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .navibar a {
@@ -140,7 +140,7 @@ main {
   transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .menu-toggle {
     display: flex;
   }
