@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  <link rel="stylesheet" href="project.css" />
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Press+Start+2P&family=Tangerine:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Princess Fiona Antonio | Projects</title>
+</head>
+<body>
+  <div id="vanta-bg"></div>
+
+    <nav class="navibar">
+    <div class="name">Fio</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about-me.html">About Me</a>
+      <a href="tech-stack.html">Tech Stack</a>
+      <a href="certificate.html">Certificates</a>
+      <a href="project.html" class="active">Projects</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="main-container">
+      <section class="sub-container">
+        <span class="category-tag">COMMUTER SAFETY | IOT</span>
+        <h1>ALERTO</h1>
+        <h3>IoT Hardware and Mobile Application Ecosystem</h3>
+        
+        <h4>Development of a Smart Location-Based Alert System and Hardware Anti-Theft Device for Commuter Safety</h4>
+
+        <p>
+          A comprehensive, multi-platform safety ecosystem designed to protect public transit commuters. The system features an AI-powered mobile app built with React Native that provides live tracking, dynamic geofencing, route deviation alerts, and a Google Gemini AI integration for Automated Grab Assist (OCR) to extract driver details from ride-hailing screenshots.
+        </p>
+
+        <p>
+          The app pairs with an independent IoT smart bag module powered by an ESP32-S3 microcontroller. The physical hardware utilizes Untethered Dead Reckoning (UDR) for continuous tracking in dead zones, strong haptic wake-up alarms requiring physical interaction, intrusion detection sensors (magnetic reed, LDR), and an embedded Air780E 4G GSM module for offline cellular fallback and emergency SMS dispatch.
+        </p>
+
+        <!-- Tech Stack Badges -->
+        <div class="tech-tags">
+          <span class="tag">React Native</span>
+          <span class="tag">ESP32-S3</span>
+          <span class="tag">Google Gemini AI</span>
+          <span class="tag">MapLibre Native</span>
+          <span class="tag">Neo-M8N GPS</span>
+          <span class="tag">Air780E 4G GSM</span>
+          <span class="tag">iProg SMS</span>
+          <span class="tag">IoT</span>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
