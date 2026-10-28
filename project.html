@@ -36,7 +36,7 @@
   <main>
     <div class="main-container">
       <section class="sub-container">
-        <span class="category-tag">COMMUTER SAFETY | IOT</span>
+        <span class="category-tag">Capstone Project and IoT</span>
         <h1>ALERTO</h1>
         <h3>IoT Hardware and Mobile Application Ecosystem</h3>
         
@@ -50,19 +50,100 @@
           The app pairs with an independent IoT smart bag module powered by an ESP32-S3 microcontroller. The physical hardware utilizes Untethered Dead Reckoning (UDR) for continuous tracking in dead zones, strong haptic wake-up alarms requiring physical interaction, intrusion detection sensors (magnetic reed, LDR), and an embedded Air780E 4G GSM module for offline cellular fallback and emergency SMS dispatch.
         </p>
 
-        <!-- Tech Stack Badges -->
-        <div class="tech-tags">
-          <span class="tag">React Native</span>
-          <span class="tag">ESP32-S3</span>
-          <span class="tag">Google Gemini AI</span>
-          <span class="tag">MapLibre Native</span>
-          <span class="tag">Neo-M8N GPS</span>
-          <span class="tag">Air780E 4G GSM</span>
-          <span class="tag">iProg SMS</span>
-          <span class="tag">IoT</span>
+        <section class="project-media" aria-labelledby="project-media-heading">
+          <div class="tech-tags" aria-label="ALERTO project technologies">
+            <span class="tag">React Native</span>
+            <span class="tag">ESP32-S3</span>
+            <span class="tag">Google Gemini AI</span>
+            <span class="tag">MapLibre Native</span>
+            <span class="tag">Neo-M8N GPS</span>
+            <span class="tag">Air780E 4G GSM</span>
+            <span class="tag">iProg SMS</span>
+            <span class="tag">IoT</span>
+          </div>
+          <h2 id="project-media-heading">Project Media</h2>
+          <div class="media-grid">
+            <figure>
+              <button class="image-preview" type="button" aria-label="View project presentation photo full size" aria-haspopup="dialog" aria-controls="groupPhotoDialog">
+                <img src="images/group.png" alt="ALERTO project group" />
+              </button>
+              <figcaption>
+                <span>Project Presentation</span>
+                <ul class="project-members" aria-label="Project members and contributions">
+                  <li>Princess Fiona Antonio | Documentation, Admin, and Frontend Web Developer</li>
+                  <li>Nathalie Dolera | Frontend and Backend App Developer</li>
+                  <li>Justine Jomoc | Documentation</li>
+                  <li>Mira Mae Medilo | Hardware</li>
+                </ul>
+              </figcaption>
+            </figure>
+            <figure>
+              <video controls preload="metadata" aria-label="ALERTO project video">
+                <source src="images/video.mp4" type="video/mp4" />
+                Your browser does not support video playback.
+              </video>
+              <figcaption>
+                <span>Project video</span>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <div class="main-container">
+      <section class="sub-container">
+        <span class="category-tag">Application Development Project</span>
+        <h1>Ligtas Sundo</h1>
+        <h3>Web Application and RFID Verification System</h3>
+
+        <h4>QR Code and RFID with SMS Notifications and Cloud Storage for Noveca Day Care Student Dismissal</h4>
+
+        <p>
+          A unified, technology driven dismissal system designed to guarantee the safe and secure pick-up of students. The platform replaces traditional, manual fetcher IDs which are susceptible to fabrication and human error with a robust digital verification system that associates students with up to three authorized fetchers. It features a responsive dashboard built with Flutter that allows school administrators and teachers to actively oversee dismissals, generate printable ID reports, and track weekly pick-up trends using built-in data analytics.
+        </p>
+
+        <p>
+          The software pairs with an RFID reader (13.56 MHz) for automatic student attendance logging and utilizes webcam integration to scan unique QR codes to securely validate authorized fetchers. Upon a successful scan, the system leverages the IPROG SMS Gateway to send instant, automated text notifications to parents, ensuring real-time communication and preventing unauthorized pick-ups.
+        </p>
+
+        <div class="tech-tags" aria-label="Ligtas Sundo technologies">
+          <span class="tag">Flutter</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">MongoDB Atlas</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">RFID (13.56 MHz)</span>
+          <span class="tag">QR Code Verification</span>
+          <span class="tag">IPROG SMS</span>
+          <span class="tag">Chart.js</span>
         </div>
+
+        <section class="project-media" aria-labelledby="ligtas-sundo-media-heading">
+          <h2 id="ligtas-sundo-media-heading">Application Development Presentation</h2>
+          <div class="media-grid single-media">
+            <figure>
+              <button class="image-preview" type="button" aria-label="View Ligtas Sundo presentation photo full size" aria-haspopup="dialog" aria-controls="ligtasSundoPhotoDialog">
+                <img src="images/Application%20Development%20Presentation.png" alt="Ligtas Sundo application development presentation group" />
+              </button>
+              <figcaption>
+                <ul class="project-members" aria-label="Ligtas Sundo project members">
+                  <li>Princess Fiona Antonio | System Analyst</li>
+                  <li>Nathalie Dolera | Backend Developer</li>
+                  <li>Justine Jomoc | Scrum Master</li>
+                  <li>Mira Mae Medilo | Frontend Developer</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
       </section>
     </div>
   </main>
+  <dialog class="image-dialog" id="groupPhotoDialog" aria-label="Full-size project presentation photo">
+    <img src="images/group.png" alt="ALERTO project group" />
+  </dialog>
+  <dialog class="image-dialog" id="ligtasSundoPhotoDialog" aria-label="Full-size Ligtas Sundo presentation photo">
+    <img src="images/Application%20Development%20Presentation.png" alt="Ligtas Sundo application development presentation group" />
+  </dialog>
 </body>
 </html>

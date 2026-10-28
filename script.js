@@ -1,4 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".image-preview").forEach(function (imagePreview) {
+    const imageDialog = document.getElementById(
+      imagePreview.getAttribute("aria-controls")
+    );
+
+    if (imageDialog) {
+      imagePreview.addEventListener("click", function () {
+        imageDialog.showModal();
+      });
+
+      imageDialog.addEventListener("click", function (event) {
+        if (event.target === imageDialog) {
+          imageDialog.close();
+        }
+      });
+    }
+  });
+
   VANTA.GLOBE({
     el: "#vanta-bg",
     mouseControls: true,
