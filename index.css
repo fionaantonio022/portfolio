@@ -14,16 +14,37 @@ body {
   }
   
   .custom-button {
-    color: white;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: rgba(255, 0, 127, 0.8);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(255, 0, 127, 0.8);
+    --bs-btn-hover-border-color: rgba(255, 0, 127, 0.8);
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgba(255, 0, 127, 0.8);
+    --bs-btn-active-border-color: rgba(255, 0, 127, 0.8);
+    --bs-btn-focus-shadow-rgb: 255, 0, 127;
+    color: #fff;
     border: 2px solid rgba(255, 0, 127, 0.8);
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.3s;
+    text-decoration: none;
   }
   
-  .custom-button:hover {
-    background-color: rgba(255, 0, 127, 0.8);
-    color: white;
+  .buttons .custom-button:hover,
+  .buttons .custom-button:focus,
+  .buttons .custom-button:active,
+  .buttons .custom-button:focus-visible {
+    background-color: rgba(255, 0, 127, 0.8) !important;
+    border-color: rgba(255, 0, 127, 0.8) !important;
+    color: #fff !important;
+    box-shadow: none !important;
+  }
+
+  .buttons .custom-button:focus-visible {
+    outline: 2px solid rgba(255, 138, 194, 0.9) !important;
+    outline-offset: 3px;
   }
   
   .profile img {
@@ -100,7 +121,7 @@ body {
       gap: 10px;
     }
   
-    button {
+    .custom-button {
       padding: 10px 18px;
       width: 100%;
       font-size: 16px;
@@ -121,7 +142,7 @@ body {
       height: 100px;
     }
   
-    button {
+    .custom-button {
       font-size: 14px;
       padding: 10px 15px;
     }
