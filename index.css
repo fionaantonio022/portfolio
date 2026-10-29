@@ -17,33 +17,26 @@ body {
     --bs-btn-color: #fff;
     --bs-btn-bg: transparent;
     --bs-btn-border-color: rgba(255, 0, 127, 0.8);
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: rgba(255, 0, 127, 0.8);
-    --bs-btn-hover-border-color: rgba(255, 0, 127, 0.8);
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: rgba(255, 0, 127, 0.8);
-    --bs-btn-active-border-color: rgba(255, 0, 127, 0.8);
     --bs-btn-focus-shadow-rgb: 255, 0, 127;
     color: #fff;
     border: 2px solid rgba(255, 0, 127, 0.8);
     padding: 10px 20px;
     border-radius: 10px;
-    transition: 0.3s;
+    box-shadow: 0 0 12px rgba(255, 0, 127, 0.4);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease, color 0.25s ease;
     text-decoration: none;
   }
-  
-  .buttons .custom-button:hover,
-  .buttons .custom-button:focus,
-  .buttons .custom-button:active,
-  .buttons .custom-button:focus-visible {
-    background-color: rgba(255, 0, 127, 0.8) !important;
-    border-color: rgba(255, 0, 127, 0.8) !important;
-    color: #fff !important;
-    box-shadow: none !important;
+
+  .buttons .custom-button:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 0, 127, 0.12);
+    border-color: rgba(255, 0, 127, 0.8);
+    box-shadow: 0 0 18px rgba(255, 0, 127, 0.8);
+    color: #ff9dc9;
   }
 
   .buttons .custom-button:focus-visible {
-    outline: 2px solid rgba(255, 138, 194, 0.9) !important;
+    outline: 2px solid rgba(255, 138, 194, 0.9);
     outline-offset: 3px;
   }
   
